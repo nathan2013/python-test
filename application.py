@@ -34,6 +34,6 @@ class Storage():
     cur.execute("SELECT * FROM scores")
     row = cur.fetchone()
     return row[0]
-
+#add comments
 if __name__ == "__main__":
   application.run(host='0.0.0.0', port=3000)
